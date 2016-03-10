@@ -31,7 +31,7 @@ public class Root{
             res.redirect("http://127.0.0.1:8080/")
         }
         
-        router.get("/trevi/:param1") { req , res , next in
+        router.get("/trevi/:param") { req , res , next in
             if let param = req.params["param"] {
                 res.send(param)
             }

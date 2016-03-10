@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACBBC61D1C91FE2100935D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC6181C91FE2100935D07 /* AppDelegate.swift */; };
+		ACBBC61E1C91FE2100935D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC6191C91FE2100935D07 /* Assets.xcassets */; };
+		ACBBC61F1C91FE2100935D07 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC61A1C91FE2100935D07 /* MainMenu.xib */; };
+		ACBBC6251C91FE3200935D07 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC6231C91FE3200935D07 /* Root.swift */; };
+		ACBBC62B1C91FE7200935D07 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC6271C91FE7200935D07 /* style.css */; };
+		ACBBC62C1C91FE7200935D07 /* trevi_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC6281C91FE7200935D07 /* trevi_logo.png */; };
+		ACBBC62D1C91FE7200935D07 /* index.ssp in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC62A1C91FE7200935D07 /* index.ssp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACBBC6181C91FE2100935D07 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACBBC6191C91FE2100935D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACBBC61B1C91FE2100935D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ACBBC61C1C91FE2100935D07 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACBBC6231C91FE3200935D07 /* Root.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		ACBBC6271C91FE7200935D07 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		ACBBC6281C91FE7200935D07 /* trevi_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trevi_logo.png; sourceTree = "<group>"; };
+		ACBBC62A1C91FE7200935D07 /* index.ssp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.ssp; sourceTree = "<group>"; };
+		ACE5150F1C91FDE6009EC206 /* LimeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE5150C1C91FDE6009EC206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACBBC6171C91FE2100935D07 /* Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBC6181C91FE2100935D07 /* AppDelegate.swift */,
+				ACBBC6191C91FE2100935D07 /* Assets.xcassets */,
+				ACBBC61A1C91FE2100935D07 /* MainMenu.xib */,
+				ACBBC61C1C91FE2100935D07 /* Info.plist */,
+			);
+			path = Xcode;
+			sourceTree = "<group>";
+		};
+		ACBBC6211C91FE3200935D07 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBC6231C91FE3200935D07 /* Root.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		ACBBC6261C91FE7200935D07 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBC6271C91FE7200935D07 /* style.css */,
+				ACBBC6281C91FE7200935D07 /* trevi_logo.png */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+		ACBBC6291C91FE7200935D07 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBC62A1C91FE7200935D07 /* index.ssp */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		ACE515061C91FDE6009EC206 = {
+			isa = PBXGroup;
+			children = (
+				ACBBC6171C91FE2100935D07 /* Xcode */,
+				ACBBC6211C91FE3200935D07 /* Sources */,
+				ACBBC6261C91FE7200935D07 /* public */,
+				ACBBC6291C91FE7200935D07 /* views */,
+				ACE515101C91FDE6009EC206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE515101C91FDE6009EC206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE5150F1C91FDE6009EC206 /* LimeExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE5150E1C91FDE6009EC206 /* LimeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE5151C1C91FDE6009EC206 /* Build configuration list for PBXNativeTarget "LimeExample" */;
+			buildPhases = (
+				ACE5150B1C91FDE6009EC206 /* Sources */,
+				ACE5150C1C91FDE6009EC206 /* Frameworks */,
+				ACE5150D1C91FDE6009EC206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LimeExample;
+			productName = LimeExample;
+			productReference = ACE5150F1C91FDE6009EC206 /* LimeExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE515071C91FDE6009EC206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Trevi Foundation";
+				TargetAttributes = {
+					ACE5150E1C91FDE6009EC206 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ACE5150A1C91FDE6009EC206 /* Build configuration list for PBXProject "LimeExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE515061C91FDE6009EC206;
+			productRefGroup = ACE515101C91FDE6009EC206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE5150E1C91FDE6009EC206 /* LimeExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE5150D1C91FDE6009EC206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBBC61E1C91FE2100935D07 /* Assets.xcassets in Resources */,
+				ACBBC62B1C91FE7200935D07 /* style.css in Resources */,
+				ACBBC62C1C91FE7200935D07 /* trevi_logo.png in Resources */,
+				ACBBC61F1C91FE2100935D07 /* MainMenu.xib in Resources */,
+				ACBBC62D1C91FE7200935D07 /* index.ssp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE5150B1C91FDE6009EC206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBBC61D1C91FE2100935D07 /* AppDelegate.swift in Sources */,
+				ACBBC6251C91FE3200935D07 /* Root.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACBBC61A1C91FE2100935D07 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACBBC61B1C91FE2100935D07 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE5151A1C91FDE6009EC206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACE5151B1C91FDE6009EC206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ACE5151D1C91FDE6009EC206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Xcode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.trevi.LimeExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACE5151E1C91FDE6009EC206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Xcode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.trevi.LimeExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE5150A1C91FDE6009EC206 /* Build configuration list for PBXProject "LimeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE5151A1C91FDE6009EC206 /* Debug */,
+				ACE5151B1C91FDE6009EC206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE5151C1C91FDE6009EC206 /* Build configuration list for PBXNativeTarget "LimeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE5151D1C91FDE6009EC206 /* Debug */,
+				ACE5151E1C91FDE6009EC206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE515071C91FDE6009EC206 /* Project object */;
+}
