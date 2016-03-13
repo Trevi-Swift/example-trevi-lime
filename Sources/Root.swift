@@ -18,14 +18,16 @@ public class Root{
     public init() {        
         router = lime.router
         
-        router.get("/") { req , res , next in
-            res.render("index.ssp", args: ["title":"Hello Trevi!"])
-        }
-        
         router.get("/index") { req , res , next in
             res.write("index get")
             res.end()
         }
+
+        router.post("/post", MultiParty()) { req , res , next in
+            res.write("index get")
+            res.end()
+        }
+        
         
         router.get("/redir") { req , res , next in
             res.redirect("http://127.0.0.1:8080/")

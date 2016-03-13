@@ -1,20 +1,16 @@
 import Trevi
-import Lime
 
 let server = Http ()
-let lime = Lime()
 
-lime.set("views", "\(__dirname)/views")
-lime.set("view engine", SwiftServerPage())
-lime.use(Logger(format: "default"))
-lime.use(Favicon())
-lime.use(ServeStatic(path: "\(__dirname)/public"))
-
-lime.use("/", Root())
-
-lime.use { (req, res, next) in
-    res.statusCode = 404
-    res.send("404 error")
-}
-
-server.createServer(lime).listen(8080)
+server.createServer({ (req, res, next) in
+    var data = ""
+    func ondata(chunk: String){
+        data += chunk
+    }
+    func onend(){
+        res.write(data)
+        res.end()
+    }
+    req.on("data", ondata)
+    req.on("end", onend)
+}).listen(8080)
