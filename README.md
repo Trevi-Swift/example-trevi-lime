@@ -8,8 +8,8 @@
 ## Overview
 An example project for Lime. See instructions for installation & usage on [Lime](https://github.com/Trevi-Swift/Trevi-lime).
 
-## Versioning
-TreviSys follows the semantic versioning scheme. The API change and backwards compatibility rules are those indicated by SemVer.
+## Swift version
+Trevi works with the latest version of Swift 2.2 Snapshot. You can download Swift binaries on [here](https://swift.org/download/#latest-development-snapshots).
 
 ## Usage
 1. Build this example :
@@ -30,6 +30,9 @@ TreviSys follows the semantic versioning scheme. The API change and backwards co
 3. Open your browser at [http://localhost:8080](http://localhost:8080)
 
 4. You should see message Listening on port 8080
+
+## Versioning
+TreviSys follows the semantic versioning scheme. The API change and backwards compatibility rules are those indicated by SemVer.
 
 ## License
 This library is licensed under Apache 2.0. Full license text is available in [LICENSE](LICENSE.txt).
