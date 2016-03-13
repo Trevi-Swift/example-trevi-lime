@@ -11,7 +11,6 @@
 		ACBBC61E1C91FE2100935D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC6191C91FE2100935D07 /* Assets.xcassets */; };
 		ACBBC61F1C91FE2100935D07 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC61A1C91FE2100935D07 /* MainMenu.xib */; };
 		ACBBC6251C91FE3200935D07 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC6231C91FE3200935D07 /* Root.swift */; };
-		ACBBC62B1C91FE7200935D07 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC6271C91FE7200935D07 /* style.css */; };
 		ACBBC62C1C91FE7200935D07 /* trevi_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC6281C91FE7200935D07 /* trevi_logo.png */; };
 		ACBBC62D1C91FE7200935D07 /* index.ssp in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC62A1C91FE7200935D07 /* index.ssp */; };
 /* End PBXBuildFile section */
@@ -22,7 +21,6 @@
 		ACBBC61B1C91FE2100935D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		ACBBC61C1C91FE2100935D07 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACBBC6231C91FE3200935D07 /* Root.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
-		ACBBC6271C91FE7200935D07 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		ACBBC6281C91FE7200935D07 /* trevi_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trevi_logo.png; sourceTree = "<group>"; };
 		ACBBC62A1C91FE7200935D07 /* index.ssp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.ssp; sourceTree = "<group>"; };
 		ACE5150F1C91FDE6009EC206 /* LimeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +59,6 @@
 		ACBBC6261C91FE7200935D07 /* public */ = {
 			isa = PBXGroup;
 			children = (
-				ACBBC6271C91FE7200935D07 /* style.css */,
 				ACBBC6281C91FE7200935D07 /* trevi_logo.png */,
 			);
 			path = public;
@@ -153,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBBC61E1C91FE2100935D07 /* Assets.xcassets in Resources */,
-				ACBBC62B1C91FE7200935D07 /* style.css in Resources */,
 				ACBBC62C1C91FE7200935D07 /* trevi_logo.png in Resources */,
 				ACBBC61F1C91FE2100935D07 /* MainMenu.xib in Resources */,
 				ACBBC62D1C91FE7200935D07 /* index.ssp in Resources */,
@@ -222,6 +218,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/lib,
+					/usr/local/lib,
+					"$(PROJECT_DIR)/../**",
+					"$(PROJECT_DIR)/.build/**",
+					"$(BUILT_PRODUCTS_DIR)/**",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -260,6 +263,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/lib,
+					/usr/local/lib,
+					"$(PROJECT_DIR)/../**",
+					"$(PROJECT_DIR)/.build/**",
+					"$(BUILT_PRODUCTS_DIR)/**",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
