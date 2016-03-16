@@ -26,6 +26,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         lime.set("view engine", SwiftServerPage())
         
+        lime.use(ServeStatic(path: __dirname))
+        
         lime.use(Logger(format: "default"))
         
         lime.use(Favicon())
